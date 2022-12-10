@@ -12,32 +12,55 @@ html, body {
     margin-right: 500px;
 }
 
-.flex-container > .tile{    
+.tile{    
     background: #1F2937;
     /*border: 4px solid red; */
     flex: 1 1 auto;
 }
 
-.flex-container > .tile.one{     
+.tile.one{     
     display: flex;
+    flex-direction: column;
 }
 
-.flex-container > .tile.two{
+.header{
+    color: #F9FAF8;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+    /*padding: 10px 100px 0 100px;*/
+    /*font-family: sans-serif;*/
+}
+
+.header-two, .header-three, .header-four{
+    margin-top: 3px;
+}
+
+.header-one{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.tile.two{
     display: flex;
     background: white;
 }
 
-.flex-container > .tile.three{
+.tile.three{
     display: flex;
     background: #e5e7eb;
 }
 
-.flex-container > .tile.four{
+.tile.four{
     display: flex;
     background: white;
 }
 
-.flex-container > .tile.footer{ 
+.tile.footer{ 
     display: flex;
     flex: 0.3
 }
