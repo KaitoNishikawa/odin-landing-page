@@ -80,34 +80,104 @@ p{
 
 .tile.two{
     background: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .tile-two-container{
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 100px auto;
     column-gap: 20px;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .box{
-    border: 2px solid;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 .box-caption{
     margin-top: 3px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 /*tile three*/
 
 .tile.three{
     background: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-style: italic; 
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px 0 200px;
+}
+
+.quote{    
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.quote-author{
+    margin-top: 0;
+    align-self: flex-end;
+    font-size: 20;
+    font-weight: 1000;
 }
 
 /*tile four*/
 
 .tile.four{
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.sign-up-box{
+    background-color: #3882F6;
+    padding: 30px 100px 30px 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.sign-up-button-container{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-button{
+    background-color:#3882F6;
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+    color: white;
+    font-size: 10px;
+}
+
+h3{
+    margin: 0 0 1px 0;
+    font-size: 14px;
+}
+
+.sign-up-text{
+    margin: 0;
+    font-size: 10px;
+}
+
+/*Footer*/
+
+.tile.footer{
+    color: white;
+    font-family: "Roboto", sans-serif;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
